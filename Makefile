@@ -8,6 +8,6 @@ all:
 .PHONY: all
 
 setup:
-	$(GOCMD) get github.com/onsi/ginkgo/ginkgo
-	$(GOCMD) get github.com/onsi/gomega/...
+	$(GOCMD) get github.com/onsi/ginkgo/ginkgo@latest
+	$(GOCMD) get github.com/onsi/gomega/...@latest
 
